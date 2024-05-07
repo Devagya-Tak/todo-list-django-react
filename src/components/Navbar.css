@@ -1,0 +1,7 @@
+nav{
+    display: flex;
+    width: 100vw;
+    background: rgb(41, 80, 206);
+    position: fixed;
+    top: 0;
+}
