@@ -12,7 +12,7 @@ const App = () => {
   const addTodo = useTodoStore(state => state.addTodo);
   const deleteTodo = useTodoStore(state => state.deleteTodo);
   const [todoTitle, setTodoTitle] = useState('');
-  const [todoDesc, setTodoDesc] = useState('');
+  const [todoDesc, setTodoDesc] = useState('No description provided');
 
   const handleAdd = () => {
     addTodo(todoTitle, todoDesc);
