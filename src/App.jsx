@@ -15,7 +15,13 @@ const App = () => {
   const [todoDesc, setTodoDesc] = useState('No description provided');
 
   const handleAdd = () => {
-    addTodo(todoTitle, todoDesc);
+    if(todoDesc){
+
+      addTodo(todoTitle, todoDesc);
+    }
+    else{
+      addTodo(todoTitle, 'No description provided');
+    }
     setTodoTitle('');
     setTodoDesc('');
   }
