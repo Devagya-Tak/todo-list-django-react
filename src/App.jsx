@@ -34,7 +34,7 @@ const App = () => {
       {/* <Navbar /> */}
       <div className="fuddu">
         <div className="container ml">
-          <h1 className="title">Todo App</h1>
+          <h1 className="title">Your Toodos</h1>
           <div className="form-container">
             <input 
               type="text" 
